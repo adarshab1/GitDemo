@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58105" started-at="2022-04-29T12:16:43Z" finished-at="2022-04-29T12:17:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58105" started-at="2022-04-29T12:16:43Z" finished-at="2022-04-29T12:17:41Z">
+      <class name="udemy_tutorial.Samlogin_tc">
+        <test-method status="PASS" signature="killNodes()[pri:0, instance:udemy_tutorial.Samlogin_tc@2473d930]" name="killNodes" is-config="true" duration-ms="3026" started-at="2022-04-29T12:16:43Z" finished-at="2022-04-29T12:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNodes -->
+        <test-method status="PASS" signature="Sam_Log_in(java.lang.String)[pri:0, instance:udemy_tutorial.Samlogin_tc@2473d930]" name="Sam_Log_in" duration-ms="55019" started-at="2022-04-29T12:16:46Z" data-provider="inputData" finished-at="2022-04-29T12:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[F200test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sam_Log_in -->
+      </class> <!-- udemy_tutorial.Samlogin_tc -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
